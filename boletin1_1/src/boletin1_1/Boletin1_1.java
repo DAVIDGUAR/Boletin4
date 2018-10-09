@@ -27,6 +27,7 @@ public class Boletin1_1 {
       altura=ler.nextFloat();
       area = base*altura/2;
       System.out.println("area= "+area);
+      
               
     }
     
