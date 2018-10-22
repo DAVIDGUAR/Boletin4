@@ -8,8 +8,16 @@ public class Coche {
     
     //contructor sin parametro
     public Coche(){
+        velocidad=0;
    
 }
+    //constructor parametros
+    //public Coche(int velocidad,int valor,int menos){
+     //   this.velocidad=velocidad;
+      //  this.acelerar=valor;
+      //  this.frenar=menos;
+    //}
+    
     
 //METODOS
     
@@ -19,18 +27,14 @@ public class Coche {
     
     
     public void acelerar (int valor){
-        int acelerar;
-        acelerar= velocidad+valor;
+       
+        velocidad= velocidad+valor;
     } 
-    public void setvalor(int valor){
-        this.valor=valor;
-    }
+      
+    
+    
     public void frenar (int menos){
-        int frenar;       
-        frenar=((velocidad+valor)-menor);
+       velocidad= (velocidad)-menos;
+       
+        }
     }
-    public void setmenos(int menos){
-        this.menos=menos;
-    }
-
-            }
