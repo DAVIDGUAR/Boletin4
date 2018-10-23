@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package boletin4_2;
 
 /**
@@ -11,12 +6,10 @@ package boletin4_2;
  */
 public class Boletin4_2 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         
-       Satelite sat  = new Satelite(20000d,5000d,4555d);
+       Satelite sat  = new Satelite(1520d,554d,7865d);
        
        sat.verPosicion();
       
