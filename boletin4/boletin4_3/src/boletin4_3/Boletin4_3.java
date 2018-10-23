@@ -1,13 +1,12 @@
 package boletin4_3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author david
  */
 public class Boletin4_3 {
-
-  
-import java.util.Scanner;
 
  
 
